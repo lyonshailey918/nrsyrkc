@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：WebSocket 双向通信 demo 开发
+简介：前后端交互跨域问题完整处理，讲解跨域产生原理，列举多种解决方案，适配开发、生产不同环境的跨域处理。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/52693691.sHtML
+
+原标题：数据库连接及时关闭连接泄漏
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/29237206.sHtML
+
+原标题：Debug：并发场景下数据覆盖丢失问题定位
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/43382462.sHtML
+
+原标题：性能复盘：热点key导致RedisCPU飙升优化
+简介：golang strings.Builder 字符串高效拼接，strings.Builder 做字符串拼接，比 += 性能更高，减少内存拷贝。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/30557957.sHtML
+
+原标题：避坑：请求未设置read超时无限挂起连接
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/52569390.sHtML
+
+原标题：服务健康检查告警监控体系
+简介：golang goroutine 泄露常见场景汇总，channel 阻塞、context 忘记取消，导致协程无法退出发生泄露。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/24236857.sHtML
+
+原标题：golang 系统设计缓存热点 key 问题业务规避
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/29047927.sHtML
+
+原标题：开发复盘：长轮询接口实现服务端消息推送
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/62680579.sHtML
+
+原标题：golang 系统设计 monorepo 仓库管理方案
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/34796958.sHtML
+
+原标题：CI 流水线超时时间延长配置
+简介：golang cgo 调用 C 语言代码示例，cgo 调用 C 函数，go 与 C 互相调用，对接 C 语言库能力。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/69161369.sHtML
+
+原标题：golang redis 热点 key 业务规避
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/18279493.sHtML
+
+原标题：开发复盘：海量日志轮转清理脚本实践
+简介：容器资源限制防止宿主机过载，设置容器 CPU 内存资源上限，避免单个容器耗尽宿主机全部硬件资源。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/29270288.sHtML
+
+原标题：快速入门Nginx基础配置，反向代理示例
+简介：golang rabbitmq go 客户端生产消费，streadway/amqp 实现 rabbitmq 生产者消费者，队列交换机绑定。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/73683675.sHtML
+
+原标题：golang 系统设计分布式配置中心思路
+简介：前端组件库按需加载性能优化，配置组件库按需引入，避免引入全部组件，减少打包产物体积。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/94028069.sHtML
+
+原标题：macOS 脚本执行权限开启
+简介：golang go sum 校验失败处理方案，go sum 校验不匹配，排查网络代理，清理缓存解决校验报错。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/74780293.sHtML
+
+原标题：golang 空接口 interface 使用技巧
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/63916915.sHtML
+
+原标题：golang 系统设计消息堆积排查扩容完整步骤
+简介：golang crypto 密码学最佳实践，go crypto 包加密签名，规避不安全算法，使用安全密码套件。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/26120398.sHtML
+
+原标题：golang 系统设计数据库查询优化完整流程
+简介：golang go http 静态文件禁止目录遍历，http.FileServer 防止../ 路径穿越，了解底层安全实现。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/74905802.sHtML
+
+原标题：运维笔记：服务器故障排查常用命令清单
+简介：golang proto 默认值坑点梳理，梳理 Protobuf 默认值坑，零值字段区分未赋值，避免业务逻辑错误。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/35916802.sHtML
+
+原标题：Practice：模拟网络抖动验证服务容错能力
+简介：golang trace 链路追踪 opentelemetry，opentelemetry 实现链路追踪，生成 traceId spanId，完整记录调用链路。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/72903413.sHtML
+
+原标题：golang 分布式锁 redis 实现
+简介：golang go toml 配置注释保留，toml 解析保留注释，修改配置后写回保留原有注释。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/30370568.sHtML
+
+原标题：Architecture：配置中心架构，动态配置设计思路
+简介：文件编码统一随机乱码修复，统一项目全部文件读写编码，消除随机中文乱码，保证文本处理稳定。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/46006806.sHtML
+
+原标题：golang docker 部署 mysql 注意事项
+简介：golang go 程序敏感信息禁止打印日志，密钥密码禁止输出日志，防止敏感信息日志泄露。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/64784706.sHtML
+
+原标题：Shell 脚本自动化命令编写
+简介：服务熔断防止故障级联传播，实现服务熔断逻辑，下游故障时快速失败，阻止故障向上游链式扩散。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/41725736.sHtML
+
+原标题：golang 单例模式实现几种方式
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/29235247.sHtML
+
+原标题：golang gitlab runner 部署与注册实操
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/30340391.sHtML
+
+原标题：线上接口超时故障排查思路
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/22591809.sHtML
+
+原标题：Performance：后端接口性能优化完整分析流程
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/33457771.sHtML
+
+原标题：golang 系统设计分布式事务几种方案优缺点
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/18802364.sHtML
+
+原标题：golang 接口返回统一封装工具
+简介：golang grpc protobuf 开发实操，Go gRPC 开发，编写 Protobuf 定义，服务端客户端完整示例。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/02791265.sHtML
+
+原标题：Security：开源项目安全审计简易检查清单
+简介：golang 僵尸进程处理 go 程序，正确等待子进程退出，避免产生僵尸进程，占用系统进程表。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/68255470.sHtML
+
+原标题：方案对比：缓存更新策略Cache‑Aside读写模式
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/36026726.sHtML
+
+原标题：避坑：请求未设置read超时无限挂起连接
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/06148917.sHtML
+
+原标题：架构复盘：网关层、应用层、数据库层层限流架构
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/51913513.sHtML
+
+原标题：golang 大文件 http 下载服务
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/10910020.sHtML
+
+原标题：golang kafka 死信队列业务落地
+简介：golang 数据库分表策略按时间分片，按时间维度分表，历史数据拆分，单表数据量控制保证查询性能。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/06574465.sHtML
+
+原标题：手写简易 ORM 理解对象映射
+简介：golang ioutil 已废弃替换方案，ioutil 废弃之后替换为 os io 包函数，更新旧项目代码。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/54856667.sHtML
+
+原标题：golang k8s 镜像拉取密钥配置
+简介：golang go 防止路径穿越攻击，文件操作校验路径，拒绝../ 路径穿越，禁止访问系统任意文件。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/48889256.sHtML
+
+原标题：缓存穿透防护保护数据库
+简介：进程线程并发基础概念讲解，区分进程与线程，讲解调度逻辑，理解并发执行原理，为高并发业务开发打基础。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/30133691.sHtML
+
+原标题：避坑：批量操作未分批次，一次性内存打爆
+简介：golang mysql 事务回滚异常处理，Go MySQL 事务异常捕获，正确回滚事务，保证异常场景数据回滚。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/02534692.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计事务消息 rocketmq 简单原理
+简介：nodejs jwt 登录鉴权完整示例，Node 实现 JWT 登录鉴权，登录签发令牌，接口校验令牌身份。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/60203701.sHtML
+
+原标题：golang 系统设计线上 ddl 变更安全执行思路
+简介：golang time duration 解析时间字符串，time.ParseDuration 解析 1h30m 时间间隔字符串。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/60468146.sHtML
+
+原标题：golang minio 对象存储接口开发
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/08060247.sHtML
+
+原标题：golang 分库分表简单路由实现
+简介：golang tcp 连接泄露排查定位，netstat 查看连接状态，找出未正常关闭连接，定位连接泄漏代码。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/93708157.sHtML
+
+原标题：运维笔记：线上服务健康检查脚本编写
+简介：nodejs 全局异常捕获进程防护，捕获未捕获异常与 Promise 拒绝，尽量保护进程不因为异常直接退出。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/68367924.sHtML
+
+原标题：大事务拆分防止连接池耗尽
+简介：动态定时任务业务调度实现，实现可以动态增删启停定时任务，无需重启服务调整调度任务。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/85815846.sHtML
+
+原标题：实战项目：容器资源限制配置压力测试实践
+简介：golang pprof 线上采集性能数据，线上环境采集 pprof 性能样本，不用停机，分析线上性能问题。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/52513570.sHtML
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/51512403.sHtML
+
+原标题：运维笔记：服务器故障排查常用命令清单
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/52513513.sHtML
+
+原标题：避坑：正则回溯引发CPU占满DoS风险
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/85906835.sHtML
+
+原标题：快速入门YAML配置文件语法与示例
+简介：golang go cover 覆盖率报告生成，go test‑cover 生成测试覆盖率，html 可视化查看未覆盖代码行。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/06914736.sHtML
+
+原标题：golang kafka offset 提交策略
+简介：golang url 参数编码处理方案，Go URL 参数编码解码，处理特殊字符，避免 URL 参数错乱。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/30279134.sHtML
+
+原标题：快速入门异步编程基础模型
+简介：golang trace 链路追踪 opentelemetry，opentelemetry 实现链路追踪，生成 traceId spanId，完整记录调用链路。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/87187332.sHtML
+
+原标题：Issue：本地可以访问，容器内部网络不通
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/40180777.sHtML
+
+原标题：复盘总结：技术选型对比文档模板实践
+简介：全局本地依赖隔离冲突规避，区分全局依赖与项目本地依赖，隔离环境，防止全局包干扰项目运行。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/98997629.sHtML
+
+原标题：Troubleshooting：k8s镜像拉取失败镜像仓库网络问题
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/49451474.sHtML
+
+原标题：项目实践：实现数据脱敏组件支持多种脱敏规则
+简介：程序性能指标 CPU 内存监控，讲解基础性能指标含义，简单实现监控采集，初步定位程序运行性能瓶颈。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/20241364.sHtML
+
+原标题：Shell 脚本自动化命令编写
+简介：pnpm 包管理工具实战避坑指南，使用 pnpm 管理项目依赖，梳理常见坑点，充分利用 pnpm 优势。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/52357027.sHtML
+
+原标题：golang 互斥锁读写锁并发安全
+简介：axios 二次封装请求拦截处理，对 axios 做二次封装，统一请求拦截响应拦截，处理错误、token 自动刷新。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/79467692.sHtML
+
+原标题：golang docker 网络模式桥接 host
+简介：golang mock 单元测试编写技巧，单元测试 mock 外部依赖，隔离数据库网络，只测试业务逻辑本身。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/34568923.sHtML
+
+原标题：golang 系统设计日志脱敏防止信息泄露
+简介：golang sync.WaitGroup 协程等待控制，WaitGroup 控制一组协程等待全部执行完成，完成批量协程任务调度。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/50492475.sHtML
+
+原标题：排错：内网域名解析不稳定导致服务随机报错
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/81087775.sHtML
+
+原标题：开发记录：搭建CI/CD流水线自动构建部署项目
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/60958655.sHtML
+
+原标题：Issue：系统fd快速上涨进程慢慢卡死
+简介：文件编码统一随机乱码修复，统一项目全部文件读写编码，消除随机中文乱码，保证文本处理稳定。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/64654652.sHtML
+
+原标题：从零搭建本地开发环境完整教程
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/46959139.sHtML
+
+原标题：golang 空接口 interface 使用技巧
+简介：golang mysql 慢查询日志程序采集解析，程序读取解析 mysql 慢查询日志，统计慢 SQL 做监控告警。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/63301291.sHtML
+
+原标题：golang 系统设计契约测试接口兼容性保障思路
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/79201792.sHtML
+
+原标题：前端骨架屏提升页面体验
+简介：golang udp 服务端客户端开发示例，golang 实现 UDP 服务收发数据包，实现 udp 协议通信程序。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/37479027.sHtML
+
+原标题：零基础理解读写分离基础思想
+简介：Nginx 静态代理负载均衡全套配置，一套 Nginx 配置示例，覆盖静态资源、反向代理、负载均衡场景。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/02602706.sHtML
+
+原标题：golang 系统设计开源版本发布 changelog 维护
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/87208230.sHtML
+
+原标题：golang 错误包装 errors.wrap 用法
+简介：K8s 镜像拉取网络故障修复，排查 K8s 集群镜像拉取网络问题，配置镜像源，恢复镜像正常拉取。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/11573663.sHtML
+
+原标题：golang 系统设计线上日志快速检索技巧
+简介：golang go 程序运行时动态修改配置，运行时热加载配置结构体，原子更新保证并发读取安全。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/80422415.sHtML
+
+原标题：golang docker 运行 etcd 本地测试
+简介：消息消费重试次数限制防爆炸，限制消息最大重试次数，防止失败消息无限重试造成消息爆炸堆积。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/25906704.sHtML
+
+原标题：golang mongodb 文档结构设计原则
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/40577680.sHtML
+
+原标题：golang kafka 监控指标简单梳理
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/17133584.sHtML
+
+原标题：Architecture：事件溯源架构模式适用业务场景
+简介：Redis 热点 key 拆分降低集群压力，拆分访问量极高的热点 Key，分散请求压力，避免 Redis 节点压力过高。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/80466703.sHtML
+
+原标题：新手向：配置项目eslint/prettier代码格式化
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/49146589.sHtML
+
+原标题：golang 系统设计 p0 故障复盘方法论讲解
+简介：golang viper 多源配置管理实操，viper 读取配置文件环境变量命令行参数，多源配置优先级管理。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/84836846.sHtML
+
+原标题：请求工具封装统一异常处理
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/25823648.sHtML
+
+原标题：gRPC 服务端客户端入门示例
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/14688012.sHtML
+
+三、实战开发｜Practice
+原标题：WebSocket 双向通信 demo 开发
+简介：golang select 随机分支执行特性，多个 channel 就绪 select 随机选择，理解 select 行为特性。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/41491393.sHtML
+
+原标题：SSH 密钥配置 GitHub 免密登录
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/41513624.sHtML
+
+原标题：开发记录：文件锁实现多进程互斥实践
+简介：golang testing.TB Helper 标记辅助函数，t.Helper 标记辅助函数，报错打印真实调用位置。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/32502468.sHtML
+
+原标题：CORS 跨域问题多种解决方案
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/71816130.sHtML
+
+原标题：DNS 解析异常第三方调用故障
+简介：golang go 模板缓存预编译模板，预编译 html 模板，程序启动加载，避免每次请求解析模板损耗性能。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/74706134.sHtML
+
+原标题：安全复盘：业务数据脱敏防止泄露实践
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/36915704.sHtML
+
+原标题：CI 流水线构建失败日志排查
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/95024015.sHtML
+
+原标题：golang 结构体 json 序列化坑点
+简介：OOMKilled 容器被杀完整排查，排查容器被 OOM 终止完整流程，区分程序内存泄露和容器内存限制过小。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/59289561.sHtML
+
+原标题：golang 系统设计告警风暴抑制合并降噪方案
+简介：K8s 镜像拉取网络故障修复，排查 K8s 集群镜像拉取网络问题，配置镜像源，恢复镜像正常拉取。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/37145750.sHtML
+
+原标题：golang 优雅关闭 grpc 服务示例
+简介：golang go json 序列化自定义字段，json 标签控制字段名称、忽略字段、omitempty 空值忽略。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/07137080.sHtML
+
+原标题：golang github actions 缓存依赖提速
+简介：开发代理服务网络限制解决，搭建本地代理服务，解决开发环境网络访问受限，实现外部接口正常调用。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/96038183.sHtML
+
+原标题：golang 系统设计告警分级 p0‑p3 定义处理流程
+简介：golang crypto 密码学最佳实践，go crypto 包加密签名，规避不安全算法，使用安全密码套件。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/29289461.sHtML
+
+原标题：golang k8s liveness readiness 探针
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/07145138.sHtML
+
+原标题：Hands‑on：简易导出PDF后端生成demo实践
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/53680706.sHtML
+
+原标题：Practice：实现异步回调处理通用组件封装
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/68383513.sHtML
+
+原标题：Hands‑on：实现WebSocket聊天室完整前后端demo
+简介：缓存穿透击穿雪崩全套防护，完整梳理缓存三大问题，落地全套防护策略，保障缓存层稳定运行。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/74916912.sHtML
+
+原标题：golang redis 大 key 识别处理方案
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/51478357.sHtML
+
+原标题：golang mysql limit 大分页优化
+简介：golang validator 自定义校验规则，Gin Validator 自定义校验器，实现业务特殊参数校验逻辑。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/64704702.sHtML
+
+原标题：golang 系统设计架构图绘制规范简单建议
+简介：golang accept 错误循环崩溃处理，accept 返回系统错误，处理临时错误，避免死循环占满 CPU。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/83688469.sHtML
+
+原标题：golang es 查询语句 DSL 实操
+简介：golang go‑zero 缓存自动击穿防护，go‑zero 缓存组件自带缓存击穿防护，减少缓存层故障。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/18148928.sHtML
+
+原标题：golang 系统设计告警升级通知策略配置思路
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/39078378.sHtML
+
+原标题：新手向：配置项目eslint/prettier代码格式化
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/18849240.sHtML
+
+原标题：Git 代码冲突正确处理方式
+简介：WebSocket 双向通信 demo 开发，搭建简易 WebSocket 服务，实现客户端服务端双向消息推送，理解实时通信原理。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/26956989.sHtML
+
+原标题：排错：静态资源CDN缓存未刷新旧资源持续返回
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/08450680.sHtML
+
+原标题：golang 系统设计缓存更新策略 cache aside 讲解
+简介：golang nilnil interface 陷阱复现，interface 包含类型不为 nil 值为 nil，判 ==nil 返回 false 经典坑。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/20472574.sHtML
+
+原标题：从零搭建简单CLI命令行工具
+简介：golang 定时任务任务持久化存储，定时任务持久化到数据库，服务重启任务不丢失，动态管理任务。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/87138929.sHtML
+
+原标题：nodejs 全局异常捕获进程防护
+简介：业务幂等键设计防重复逻辑，讲解幂等键设计思路，选择合适业务字段作为幂等标识，实现可靠防重复。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/14838146.sHtML
+
+原标题：方案设计：分布式锁失效风险架构层面规避
+简介：接口压测定位系统性能瓶颈，使用压测工具对接口施压，观察指标，定位系统性能瓶颈点。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/94038128.sHtML
+
+原标题：安全笔记：XSS跨站脚本攻击防御落地实践
+简介：golang docker compose 开发环境 go 服务，docker compose 编排 go 服务与中间件，本地一键拉起整套开发环境。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/41579584.sHtML
+
+原标题：golang 系统设计配置敏感信息加密存储方案
+简介：Git 混乱提交历史清理方法，针对杂乱的提交记录，使用 Git 工具整理，清理无效提交，还原整洁版本历史。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/29259139.sHtML
+
+原标题：浏览器内存泄漏排查前端页面
+简介：golang go mod graph 可视化依赖图，可视化 go 依赖关系，直观看到包之间依赖，定位冲突。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/29691702.sHtML
+
+原标题：踩坑记录：CPU亲和配置不合理多核心负载不均
+简介：主干开发团队代码合并策略，讲解主干开发模式，团队代码合并流程，适合高频迭代的团队协作模式。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/29397250.sHtML
+
+原标题：golang 系统设计指标埋点代码低侵入实现
+简介：golang 集成测试测试数据库回滚，集成测试结束自动回滚数据库，不污染测试环境数据。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/41471362.sHtML
+
+原标题：golang docker 部署 prometheus 整套
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/29356283.sHtML
+
+原标题：golang mysql 死锁排查步骤讲解
+简介：包管理器依赖冲突解决方案，分析依赖冲突产生根源，提供版本调整、锁定依赖等手段，解决项目依赖报错问题。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/18361368.sHtML
+
+原标题：项目实践：OpenTelemetry链路追踪本地部署实践
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/07234039.sHtML
+
+原标题：golang 系统设计消息大小限制业务处理方案
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/46562644.sHtML
+
+原标题：新手教程：gitrebase基础使用与风险提示
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/19300001.sHtML
+
+原标题：golang 系统设计读写分离架构示例
+简介：golang go 项目安全检查漏洞扫描，扫描 go 项目依赖漏洞，代码安全审计，规避安全风险。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/85905781.sHtML
+
+原标题：效率笔记：Git高级命令日常开发高频使用汇总
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/70322684.sHtML
+
+四、架构设计｜Architecture
+原标题：golang 系统设计链路数据存储选型对比讲解
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/41583514.sHtML
+
+原标题：nestjs 全局返回格式统一处理
+简介：golang cgroup 读取容器资源限制，go 程序读取 cgroup，获取容器 cpu 内存限额，适配容器环境。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/71816818.sHtML
+
+原标题：golang 数据库批量更新性能优化
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/83037802.sHtML
+
+原标题：Practice：实现请求body重复读取中间件实践
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/96048139.sHtML
+
+原标题：golang 系统设计消息可靠性投递实现
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/29361479.sHtML
+
+原标题：数据库事务 ACID 原理讲解
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/29957367.sHtML
+
+原标题：安全复盘：消息队列未授权访问安全加固
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/29345135.sHtML
+
+原标题：golang 系统设计开发环境本地调试最佳实践
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/30300380.sHtML
+
+原标题：WSL 内存上限限制防止资源耗尽
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/07728037.sHtML
+
+原标题：golang k8s 命名空间资源隔离方案
+简介：golang go 服务蓝绿发布实践思路，蓝绿两套实例，流量一键切换，回滚快速降低发布风险。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/85846959.sHtML
+
+原标题：golang defer panic 异常处理
+简介：golang gorm 事务手动回滚提交，手动控制事务流程，业务异常主动回滚，保障数据操作原子性。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/74815896.sHtML
+
+原标题：nodejs 跨域中间件配置细节
+简介：golang oss 签名 URL 临时访问，生成 oss 临时签名 url，限时访问私有文件，保障文件访问安全可控。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/07026082.sHtML
+
+原标题：golang mock 单元测试编写技巧
+简介：golang aes cbc gcm 模式加密对比，AES‑CBC AES‑GCM 模式加密解密，理解两种模式差异选型。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/63350391.sHtML
+
+原标题：内网 DNS 不稳定随机报错排查
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/21179469.sHtML
+
+原标题：部署复盘：容器资源限制CPU内存配置实践
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/70574523.sHtML
+
+原标题：CPU 亲和性配置负载均衡调度
+简介：站内邮件消息通知功能开发，实现站内消息、邮件通知推送，业务事件触发通知，提醒用户业务状态变更。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/18394693.sHtML
+
+原标题：golang 系统设计网关请求日志 traceId 透传实现
+简介：golang docker 多阶段构建 go 镜像，Go 项目 Docker 多阶段构建，编译与运行阶段分离，大幅度缩减最终镜像体积，提升镜像分发效率。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/18149170.sHtML
+
+原标题：golang 系统设计代码评审高效沟通原则思路
+简介：golang url 参数编码处理方案，Go URL 参数编码解码，处理特殊字符，避免 URL 参数错乱。
+ | 原文链接：http://www.h5.sheda.fun/Article/details/29292473.sHtML
+
+?
